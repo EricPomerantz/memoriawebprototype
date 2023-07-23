@@ -1,5 +1,5 @@
 const apiKey = 'YOUR_API_KEY';
-const searchUrl = 'http://archive.org/wayback/available?url=';
+const searchUrl = 'https://archive.org/wayback/available?url=';
 
 // Get the input value from the textbox
 const inputTextbox = document.getElementById('urlInput');

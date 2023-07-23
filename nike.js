@@ -7,8 +7,8 @@ function searchAndDisplayWebPages() {
   const targetUrl = 'https://www.nike.com'; // Replace with your desired fixed URL
 
   // Create the request URLs
-  const currentWebPageRequestUrl = `http://archive.org/wayback/available?url=${targetUrl}`;
-  const archivedWebPageRequestUrl = `http://archive.org/wayback/available?url=${targetUrl}&timestamp=${getTimestampTenYearsAgo()}`;
+  const currentWebPageRequestUrl = `https://archive.org/wayback/available?url=${targetUrl}`;
+  const archivedWebPageRequestUrl = `https://archive.org/wayback/available?url=${targetUrl}&timestamp=${getTimestampTenYearsAgo()}`;
 
   // Make the AJAX request to the Wayback Machine API for the current web page
   $.ajax({
