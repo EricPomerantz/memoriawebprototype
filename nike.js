@@ -4,7 +4,7 @@ const archivedWebPageBox = document.getElementById('archivedWebPage');
 
 // Function to handle the search and display
 function searchAndDisplayWebPages() {
-  const targetUrl = 'https://www.nike.com'; // Replace with your desired fixed URL
+  const targetUrl = 'https://www.nike.com';
 
   // Create the request URLs
   const currentWebPageRequestUrl = `https://archive.org/wayback/available?url=${targetUrl}`;

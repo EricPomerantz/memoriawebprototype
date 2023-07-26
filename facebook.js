@@ -4,7 +4,7 @@ const archivedWebPageBox = document.getElementById('archivedWebPage');
 
 // Function to handle the search and display
 function searchAndDisplayWebPages() {
-  const targetUrl = 'https://www.facebook.com'; // Replace with your desired fixed URL
+  const targetUrl = 'https://www.facebook.com'; 
 
   // Create the request URLs
   const currentWebPageRequestUrl = `https://archive.org/wayback/available?url=${targetUrl}`;

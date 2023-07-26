@@ -4,8 +4,8 @@ const archivedWebPageBox = document.getElementById('archivedWebPage');
 
 // Function to handle the search and display
 function searchAndDisplayWebPages() {
-  const targetUrl = 'https://www.youtube.com'; // Replace with your desired fixed URL
-
+  const targetUrl = 'https://www.youtube.com'; 
+  
   // Create the request URLs
   const currentWebPageRequestUrl = `https://archive.org/wayback/available?url=${targetUrl}`;
   const archivedWebPageRequestUrl = `https://archive.org/wayback/available?url=${targetUrl}&timestamp=${getTimestampTenYearsAgo()}`;
